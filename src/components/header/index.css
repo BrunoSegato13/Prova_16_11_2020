@@ -1,0 +1,36 @@
+.menu{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    background-color: #E0E0E0;  
+    list-style-image: none;  
+    text-decoration: none;
+    justify-content: space-around;
+    border: border-box;
+    color: #E03F13;
+    box-shadow: lavender;
+}
+
+.logo img{
+  width: 100px;
+}
+
+.menu-links{
+  flex-direction: end;
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  color: #E03F13;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu-links li a{
+  padding: 10px;
+  text-decoration:none;
+  color: #E03F13;
+}
